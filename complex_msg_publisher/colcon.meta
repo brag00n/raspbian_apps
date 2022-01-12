@@ -1,0 +1,28 @@
+{
+    "names": {
+        "rmw_microxrcedds": {
+            "cmake-args": [
+                "-DRMW_UXRCE_MAX_NODES=1",
+                "-DRMW_UXRCE_MAX_PUBLISHERS=3",
+                "-DRMW_UXRCE_MAX_SUBSCRIPTIONS=0",
+                "-DRMW_UXRCE_MAX_SERVICES=0",
+                "-DRMW_UXRCE_MAX_CLIENTS=0",
+                "-DRMW_UXRCE_MAX_HISTORY=4"
+            ]
+        },
+        "rosidl_typesupport": {
+            "cmake-args": [
+                "-DROSIDL_TYPESUPPORT_SINGLE_TYPESUPPORT=ON"
+            ]
+        },
+        "tracetools": {
+            "cmake-args": [
+                "-DTRACETOOLS_DISABLED=ON",
+                "-DTRACETOOLS_STATUS_CHECKING_TOOL=OFF",
+                "-DRMW_UXRCE_TRANSPORT=udp",
+                "-DRMW_UXRCE_DEFAULT_UDP_IP=localhost",
+                "-DRMW_UXRCE_DEFAULT_UDP_PORT=8888",
+            ]
+        },
+    }
+}
