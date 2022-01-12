@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(mysecondapp LANGUAGES C)
+project(int32_publisher LANGUAGES C)
 
 find_package(ament_cmake REQUIRED)
 find_package(microxrcedds_client REQUIRED)
