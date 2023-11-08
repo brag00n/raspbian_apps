@@ -2,4 +2,4 @@ repositories:
   uros/micro-ros-Agent:
     type: git
     url: https://github.com/microROS/micro-ROS-Agent.git
-    version: foxy
+    version: humble
